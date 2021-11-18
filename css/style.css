@@ -54,7 +54,7 @@ form {
 
 .input-control label {
   display: inline-block;
-  padding: 12px 8px;
+  padding-bottom: 16px;
   font-size: 16px;
   margin-bottom: -8px;
   color: #ededed;
@@ -173,4 +173,17 @@ main {
 
 .card p {
   font-size: 14px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+  color: white;
 }
